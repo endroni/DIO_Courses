@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="endroni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-30 03:43:02 "/>
+        <attribute name="created" value="ZW5kcm9uaTtTS0lQOzIwMjEtMDQtMzA7IjAzOjI5OjAzICI7MjI0Ng=="/>
+        <attribute name="edited" value="ZW5kcm9uaTtTS0lQOzIwMjEtMDQtMzA7IjAzOjQzOjAyICI7MTsyMzQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="media, totalPontos, nota1, nota2, nota3, nota4" type="Real" array="False" size=""/>
+            <declare name="situacao" type="String" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a segunda Nota:&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite a terceira nota:&quot;" newline="False"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite a quarta Nota:&quot;" newline="False"/>
+            <input variable="nota4"/>
+            <assign variable="totalPontos" expression="nota1 + nota2 + nota3 + nota4"/>
+            <assign variable="media" expression="totalPontos / 4"/>
+            <if expression="media &gt; 7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; foi aprovado com &quot; &amp; totalPontos &amp; &quot; pontos&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; foi reprovado.&#13;&#10;Total de pontos: &quot; &amp; totalPontos" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
