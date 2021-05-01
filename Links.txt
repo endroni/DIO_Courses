@@ -13,6 +13,9 @@ https://www.proprofsgames.com/wolf-sheep-and-cabbage/
 Programa de fluxograma
 http://www.flowgorithm.org/
 
+Programa Portugol Studio:
+https://github.com/UNIVALI-LITE/Portugol-Studio/releases/ 
+
 Principais softskils: 
 - Disciplina
 - Protagonismo
