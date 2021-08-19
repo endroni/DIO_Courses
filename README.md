@@ -10,5 +10,6 @@ Esse repositório tem o intuito de difundir o conhecimento adquirido no bootcamp
 * HTML
 * CSS
 * JavaScript
+* Banco de Dados PostgreSQL 
 
 
